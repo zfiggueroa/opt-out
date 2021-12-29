@@ -8,7 +8,7 @@ tt = tiktok only videos
 yt = youtube only videos
 hs = repopulate yt.history
 ```` 
-example:
+Example:
 
 `$ sh opt-out.sh yt`
 
@@ -17,15 +17,12 @@ example:
 * ffmpeg
 
 ## PROFILE
-if you want to run is as command add the following line inside your sh profile:
-
-~/.bash_profile
+If you want to run it as command add an `alias` inside your sh profile.
 
 `alias opt-out="/path/to/opt-out.sh"`
 
-Now you can run it from any terminal:
+Now you can run it from terminal.
 
 `$ opt-out yt`
-
 ## BUGS
-currently `yt-dlp` sometimes fails downloading tiktok channels metadata so you have to run again `opt-out tt`
+Currently `yt-dlp` sometimes fails downloading tiktok users metadata so you have to run again `opt-out tt` if a channel fails to download.

@@ -17,10 +17,10 @@ Example:
 * ffmpeg
 
 ## PROFILE
-If you want to run it as command add an `alias` inside your sh profile.
+If you want to run it as command add an `alias` inside your shell profile.
 
 `alias opt-out="/path/to/opt-out.sh"`
 
-Now you can run it from terminal.
+Now you can run it from any path on terminal.
 
 `$ opt-out yt`

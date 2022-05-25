@@ -1,5 +1,6 @@
 ## DESCRIPTION
 Downloads the latest videos from your favorite streaming services using yt-dlp extractors, keep track of new videos and store them for offline view.
+
 <img src="https://i.ibb.co/X2LF9kV/proxy-image.png" width=10% height=10%>
 
 Full extractors list https://github.com/yt-dlp/yt-dlp/tree/master/yt_dlp/extractor
